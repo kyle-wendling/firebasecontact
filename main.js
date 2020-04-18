@@ -1,11 +1,21 @@
 // Initialize Firebase (ADD YOUR OWN DATA)
-var config = {
-  apiKey: "xxxxx",
-  authDomain: "xxxxx",
-  databaseURL: "xxxxx",
-  projectId: "xxxxx",
-  storageBucket: "xxxxx",
-  messagingSenderId: "xxxxx"
+// var config = {
+//   apiKey: "xxxxx",
+//   authDomain: "xxxxx",
+//   databaseURL: "xxxxx",
+//   projectId: "xxxxx",
+//   storageBucket: "xxxxx",
+//   messagingSenderId: "xxxxx"
+// };
+const config = {
+  apiKey: "AIzaSyB8g3G2ga6swAekR1Fcwnm2U3jhSynmTq0",
+  authDomain: "form-sub-test.firebaseapp.com",
+  databaseURL: "https://form-sub-test.firebaseio.com",
+  projectId: "form-sub-test",
+  storageBucket: "form-sub-test.appspot.com",
+  messagingSenderId: "1027581035586",
+  appId: "1:1027581035586:web:e0615682c3ed784ca799db",
+  measurementId: "G-XQTKEFZLTL"
 };
 firebase.initializeApp(config);
 
